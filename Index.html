@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Component with Signup Form</title>
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="container mt-5">
+    <div class="row">
+        <div class="col-lg mb-sm-5 d-flex flex-column justify-content-center align-items-start text-start">
+            <h1 class="mb-3 text-white fw-bolder">
+                Learn to code by <br> watching others
+            </h1>
+            <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, facilis optio modi vel error voluptatem
+                sequi. Quisquam laborum ex delectus iusto repellendus exercitationem voluptatibus consectetur nobis
+                commodi placeat, temporibus accusantium?
+            </p>
+        </div>
+
+        <div class="col-lg">
+            <div class="btn discount p-2 mb-4 d-flex justify-content-center align-items-center">
+                <p class="m-0"><b>Try it free 7 days</b> <small>then 20$/mo thereafter</small></p>
+            </div>
+            <form class="form mb-3 p-4" id="signupForm" novalidate>
+                <div class="position-relative mb-3">
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+                    <img src="/images/icon-error.svg" alt="Error" class="error-icon d-none">
+                    <small id="firstNameError" class="text-danger d-none error-message">Please enter your first name.</small>
+                </div>
+                
+                <div class="position-relative mb-3">
+                    <input type="text" class="form-control" id="secondName" placeholder="Second Name" required>
+                    <img src="/images/icon-error.svg" alt="Error" class="error-icon d-none">
+                    <small id="secondNameError" class="text-danger d-none error-message">Please enter your second name.</small>
+                </div>
+                
+                <div class="position-relative mb-3">
+                    <input type="email" class="form-control" id="emailAddress" placeholder="Email Address" required>
+                    <img src="/images/icon-error.svg" alt="Error" class="error-icon d-none">
+                    <small id="emailError" class="text-danger d-none error-message">Please enter a valid email address.</small>
+                </div>
+                
+                <div class="position-relative mb-3">
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required minlength="8">
+                    <img src="/images/icon-error.svg" alt="Error" class="error-icon d-none">
+                    <small id="passwordError" class="text-danger d-none error-message">Password must be at least 8 characters.</small>
+                </div>
+                
+            
+                <div>
+                    <button type="submit" class="btn btn-success w-100 mb-2">CLAIM YOUR FREE TRIAL</button>
+                </div>
+                <div>
+                    <p class="text-black-50 fs-6 justify-content-center d-flex">
+                        By clicking the button you are agreeing to our <span class="text-danger cursor-pointer">Terms and services</span>
+                    </p>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+
+<script src="/JS/Script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+body {
+    background-image: url('/images/bg-intro-desktop.png');
+    background-color: #FF7978 !important;
+}
+.discount {
+    background-color: #5D54A3 !important;
+    color: #fff !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    transition: transform 0.1s ease, box-shadow 0.3s ease;
+}
+
+.discount:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8);
+}
+
+.discount:active {
+    border: none;
+    transform: scale(0.98);
+}
+
+.discount:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.form {
+    border: 1px solid transparent;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+.form input:focus {
+box-shadow: none;
+}
+
+.form span{
+    cursor: pointer;
+}
+.form a{
+    text-decoration: none;
+}
+.submit{
+    transition: transform 0.1s ease, box-shadow 0.3s ease;
+    
+}
+.submit:hover{
+    transform: scale(1.02);
+}
+.submit:focus{
+    outline: none;
+    box-shadow: none;
+}
+.submit:active {
+    border: none;
+    transform: scale(0.98);
+}
+.error-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.error-message {
+    font-size: 0.875rem;
+}
