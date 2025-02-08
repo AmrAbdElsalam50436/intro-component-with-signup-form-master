@@ -22,7 +22,7 @@ To get started, follow these steps:
 bash
 Copy
 Edit
-git clone https://github.com/AmrAbdElsalam50436/signup-form-master.git
+git clone https://github.com/AmrAbdElsalam50436/intro-component-with-signup-form-master.git
 2. Navigate to the project directory:
 bash
 Copy
